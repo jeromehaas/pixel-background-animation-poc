@@ -1,4 +1,4 @@
-# Pixel Background-Animation POC
+# Pixel Background-Animation [POC]
 
 This repo holds a simple proof-of-concept of a canvas animation.
 
