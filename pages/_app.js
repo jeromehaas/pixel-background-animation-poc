@@ -1,7 +1,10 @@
+// IMPORTS
 import '../styles/main.scss'
 
-function MyApp({ Component, pageProps }) {
+// APP
+function App({ Component, pageProps }) {
   return <Component {...pageProps} />
 }
 
-export default MyApp
+// EXPORTS
+export default App

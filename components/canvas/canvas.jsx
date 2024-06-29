@@ -1,5 +1,7 @@
+// IMPORTS
 import { useEffect, useState, useRef } from 'react';
 
+// CANVAS
 const Canvas = () => {
 
 	// GET REFERENCE
@@ -75,6 +77,7 @@ const Canvas = () => {
 		return () => clearInterval(interval);
 	}, [context, dimensions]);
 
+	// RENDER
 	return (
 		<div className="canvas">
 			<canvas className="canvas__art" ref={ canvasRef } width={ dimensions.x || 0 } height={ dimensions.y || 0 } /> 
@@ -83,4 +86,5 @@ const Canvas = () => {
 
 };
 
+// EXPORTS
 export default Canvas;

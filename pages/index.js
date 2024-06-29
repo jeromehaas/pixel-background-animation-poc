@@ -1,7 +1,10 @@
+// IMPORTS
 import Canvas from '../components/canvas/canvas'
 
-export default function Home() {
+// EXPORTS
+export default function Start() {
 
+	// RENDER
   return (
     <div>
 			<Canvas />
